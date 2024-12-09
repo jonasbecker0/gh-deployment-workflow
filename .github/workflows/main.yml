@@ -1,0 +1,6 @@
+on: push
+jobs:
+  first-on:
+    steps:
+      - run node --version
+      - run npm --version
